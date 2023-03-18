@@ -1,0 +1,54 @@
+.trending{
+    background-image: url("../../../public/background.png");
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.textWhite{
+    color: white !important;
+}
+.knowMore{
+    background-color: #21275b;
+    border: none;
+    border-radius: 30px;
+}
+.callUs{
+    background-color: #fff;
+    border: 1px solid #21275b;
+    border-radius: 30px;
+    color: #21275b;    
+}
+.swiper-button-next{
+    /* position: absolute; */
+    /* right: 50% !important; */
+}
+.trendingImage{
+    object-fit: cover;
+    width: 100%;
+    max-height: 300px;
+    height: 250px;
+}
+.trendingLineWidth{
+    width: 25% !important;
+}
+.next{
+    right: 50%;
+}
+@media screen and (max-width:768px) {
+ .trendingFontSize{
+    font-size: small !important;
+    margin-top: 2vw;
+ }
+ .hideFromPc{
+    display: none;
+ }   
+ .showInMopile{
+    display: block !important;
+ }
+ .cardFontSize{
+    font-size: 5vw !important;
+ }
+ .trending{
+    height: 90vh !important;
+ }
+}

@@ -1,0 +1,127 @@
+.checkbox {
+  background-color: #21275b !important;
+}
+.sideBarFontSize {
+  color: rgb(72, 72, 72);
+  font-size: 14px;
+}
+.margiin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+}
+.addingMarginNegative {
+  margin-bottom: -0.9vw !important;
+}
+.inputContainer {
+  background-color: #fff;
+  /* -webkit-padding-end: 5px; */
+  padding-inline-end: 5px;
+  border-radius: 7px;
+  overflow: hidden;
+  border: 1px solid #b7b7b7;
+}
+.SideNavbarInput {
+  border: none !important;
+  outline: none !important;
+  /* -webkit-border-end: 1px solid var(--clr-greyb7) !important; */
+  border-inline-end: 1px solid #b7b7b7 !important;
+  padding: 5px;
+  font-size: 0.8rem;
+  color: #484848;
+}
+.EGP {
+  margin: 0;
+  font-weight: 400;
+  line-height: 1.334;
+  letter-spacing: 0em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 2vw;
+}
+.checkbox input {
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden;
+  height: 12px;
+}
+.searchPropertiesButton {
+  color: white;
+  font-size: 0.5rem;
+  margin: auto;
+  /* padding: 1rem 0.4rem; */
+  background-color: #21275b;
+  display: none !important;
+}
+.numberSize {
+  font-size: 0.8rem;
+}
+.borderEnd {
+  border-right: 1px solid #adadadbd !important;
+}
+.rangeWidth {
+  width: 95.5%;
+}
+.pointer {
+  cursor: pointer;
+}
+.bgGrey {
+  background-color: #f5f5f5;
+}
+.search {
+  position: absolute;
+  bottom: 30%;
+  left: 10%;
+  width: 80%;
+}
+.btnSearch {
+  color: white;
+  font-size: 16px;
+  padding: 1.6rem 0.7rem;
+  background-color: #21275b;
+  width: 100%;
+}
+.searchPropertiesButton {
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.5rem 0.4rem !important;
+  background-color: #21275b;
+  display: none !important;
+}
+
+.price {
+  outline: none !important;
+  color: #484848;
+  border: 1px solid #bababa !important;
+  width: 100%;
+}
+.bord {
+  border: 1px solid #bababa;
+}
+.sideMenuBg {
+  background-color: rgb(252, 252, 252);
+  width: 90% !important;
+}
+
+@media screen and (max-width: 374px) {
+  .search {
+    display: none;
+  }
+  .searchPropertiesButton {
+    padding: 0.3rem !important;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .search {
+    display: none;
+  }
+  .searchPropertiesButton {
+    display: block !important;
+  }
+  .showSideMenuInMobile {
+    display: block !important;
+  }
+}

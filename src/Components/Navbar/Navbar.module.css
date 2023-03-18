@@ -1,0 +1,105 @@
+.fontSize {
+  font-size: 0.67rem;
+}
+.bgIcon {
+  background-color: #21275b;
+  width: 23px;
+  height: 23px;
+  color: white;
+  text-align: center;
+}
+.navIcons{
+  font-size: medium;
+}
+.navBorder{
+  border: 1px solid #d0d0d0;
+}
+.navbar {
+  font-size: medium !important;
+  border: unset !important;
+  background: unset !important;
+}
+.NavbarFontSize {
+  font-size: 0.7rem !important;
+}
+.cursor {
+  cursor: pointer;
+}
+.edit {
+  background-color: #21275b;
+  border-radius: 1.75rem;
+  border: 1px solid white;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 0.498rem;
+  padding: 0.163rem 1.95rem;
+  text-decoration: none;
+  text-align: center;
+}
+.zIndex {
+  z-index: 999;
+}
+.sideNavbar {
+  width: 1.875rem;
+  /* height: 186px; */
+  padding: 0.5rem 1.2rem;
+  position: fixed;
+  top: 35%;
+  inset-inline-end: 1%;
+  border-radius: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 9999;
+}
+.logoWidth{
+  width: 40% !important;
+}
+@media screen and (max-width: 768px) {
+  .showInMobiles {
+    display: block !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .showInPC {
+    display: block !important;
+  }
+  .startCall {
+    background-color: #21275b;
+    border-radius: 1.75rem;
+    border: 1px solid white;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 0.498rem;
+    padding: 0.563rem 3rem;
+    text-decoration: none;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .showInLargeScreens {
+    display: block !important;
+  }
+  .startCall {
+    background-color: #21275b;
+    border-radius: 1.75rem;
+    border: 1px solid white;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: .798rem;
+    padding: 0.563rem 1.7rem;
+    text-decoration: none;
+    text-align: end;
+    margin-right: 1rem;
+    font-weight: 600;
+  }
+  .marakezWidth,.MarakezLogo{
+    width: 100%;
+  }
+  .NavbarFontSize {
+    font-size: large !important;
+  }
+}
