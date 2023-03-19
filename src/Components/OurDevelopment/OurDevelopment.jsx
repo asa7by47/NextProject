@@ -106,13 +106,6 @@ const OurDevelopment = () => {
                 </h5>
                 <p className="text-muted p-0 m-0">Residential</p>
               </div>
-
-              <div className={`text-center mt-3 ${style.fsize}`}>
-                <h5 className={`colorBlue p-0 m-0 ${style.fsizeHead}`}>
-                  New Cairo
-                </h5>
-                <p className="text-muted p-0 m-0">Residential</p>
-              </div>
             </SwiperSlide>
             <SwiperSlide>
               <div
@@ -142,13 +135,6 @@ const OurDevelopment = () => {
                   </div>
                 </div>
               </div>
-              <div className={`text-center mt-3 ${style.fsize}`}>
-                <h5 className={`colorBlue p-0 m-0 ${style.fsizeHead}`}>
-                  New Cairo
-                </h5>
-                <p className="text-muted p-0 m-0">Residential</p>
-              </div>
-
               <div className={`text-center mt-3 ${style.fsize}`}>
                 <h5 className={`colorBlue p-0 m-0 ${style.fsizeHead}`}>
                   New Cairo
@@ -190,13 +176,6 @@ const OurDevelopment = () => {
                 </h5>
                 <p className="text-muted p-0 m-0">Residential</p>
               </div>
-
-              <div className={`text-center mt-3 ${style.fsize}`}>
-                <h5 className={`colorBlue p-0 m-0 ${style.fsizeHead}`}>
-                  New Cairo
-                </h5>
-                <p className="text-muted p-0 m-0">Residential</p>
-              </div>
             </SwiperSlide>
             <SwiperSlide>
               <div
@@ -226,13 +205,6 @@ const OurDevelopment = () => {
                   </div>
                 </div>
               </div>
-              <div className={`text-center mt-3 ${style.fsize}`}>
-                <h5 className={`colorBlue p-0 m-0 ${style.fsizeHead}`}>
-                  New Cairo
-                </h5>
-                <p className="text-muted p-0 m-0">Residential</p>
-              </div>
-
               <div className={`text-center mt-3 ${style.fsize}`}>
                 <h5 className={`colorBlue p-0 m-0 ${style.fsizeHead}`}>
                   New Cairo
@@ -274,13 +246,6 @@ const OurDevelopment = () => {
                 </h5>
                 <p className="text-muted p-0 m-0">Residential</p>
               </div>
-
-              <div className={`text-center mt-3 ${style.fsize}`}>
-                <h5 className={`colorBlue p-0 m-0 ${style.fsizeHead}`}>
-                  New Cairo
-                </h5>
-                <p className="text-muted p-0 m-0">Residential</p>
-              </div>
             </SwiperSlide>
             <SwiperSlide>
               <div
@@ -310,13 +275,6 @@ const OurDevelopment = () => {
                   </div>
                 </div>
               </div>
-              <div className={`text-center mt-3 ${style.fsize}`}>
-                <h5 className={`colorBlue p-0 m-0 ${style.fsizeHead}`}>
-                  New Cairo
-                </h5>
-                <p className="text-muted p-0 m-0">Residential</p>
-              </div>
-
               <div className={`text-center mt-3 ${style.fsize}`}>
                 <h5 className={`colorBlue p-0 m-0 ${style.fsizeHead}`}>
                   New Cairo
@@ -358,20 +316,13 @@ const OurDevelopment = () => {
                 </h5>
                 <p className="text-muted p-0 m-0">Residential</p>
               </div>
-
-              <div className={`text-center mt-3 ${style.fsize}`}>
-                <h5 className={`colorBlue p-0 m-0 ${style.fsizeHead}`}>
-                  New Cairo
-                </h5>
-                <p className="text-muted p-0 m-0">Residential</p>
-              </div>
             </SwiperSlide>
           </Swiper>
         </div>
         {/* End PC View */}
 
         {/* Mobile View */}
-        <div className={`container-fluid ${style.mobileView} `}>
+        {/* <div className={`container-fluid ${style.mobileView} `}>
           <Swiper
             slidesPerView={1.5}
             spaceBetween={30}
@@ -661,7 +612,7 @@ const OurDevelopment = () => {
               </div>
             </SwiperSlide>
           </Swiper>
-        </div>
+        </div> */}
         {/* End Mobile View */}
       </section>
     </>
